@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//import 'profile-Discover-maches/profile-Info.dart';
+import 'profile-Discover-maches/profile-Info.dart';
 
 //import 'login/setting.dart';
 
@@ -10,15 +10,14 @@ import 'package:flutter/material.dart';
 
 // import 'login/verify-number.dart';
 
-import 'login/start-login.dart';
+//import 'login/start-login.dart';
 
-//import 'login/profile-bio.dart';
+//import 'login/profile-bio.dart'; 
 //import 'login/who-are-you.dart';
 
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
@@ -27,23 +26,24 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Iz',
+       title: 'Iz',
       theme: ThemeData(
         fontFamily: 'Fira Sans',
         primarySwatch: Colors.blue,
         backgroundColor: Colors.white,
       ),
-      home: StartLogin(),
-
-      //SettingProfile(),
-      //ProfileMedia(),
-      //ProfileBio(),
-      //WhoAreYou(),
-      //StartLogin(),
-      //  VeryfyNumber(),
+             home:ProfileInfo(),
+             
+             //SettingProfile(),
+             //ProfileMedia(),
+             //ProfileBio(),
+             //WhoAreYou(),
+             //StartLogin(),
+            //  VeryfyNumber(),
 //welcomeScreen()
-    );
+          );
   }
 }
