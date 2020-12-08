@@ -42,7 +42,8 @@ class StartLogin extends StatelessWidget {
                           ),
                           children: [
                             TextSpan(
-                              text: 'By tapping Log In, you agree with our 123',
+                              text:
+                                  'By tapping Log In, you agree with our 4123',
                             ),
                             TextSpan(
                               text: 'Terms of Service',
